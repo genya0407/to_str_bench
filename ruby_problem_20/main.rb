@@ -3,9 +3,6 @@ res1 = 1
   res1 = res1 * i
 end
 
-res2 = 0
-res1.to_s.chars.each do |j|
-  res2 = res2 + j.to_i
+(1..5).each do
+  puts res1.to_s[0..14]
 end
-
-puts res2
