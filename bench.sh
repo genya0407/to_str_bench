@@ -52,7 +52,7 @@ cd python_problem_20
 echo 'python'
 for i in `seq 3`
 do
-    time python3 main.py
+    time python main.py
 done
 
 echo ''
@@ -60,7 +60,7 @@ echo ''
 echo 'python(without cast)'
 for i in `seq 3`
 do
-    time python3 only_calculation.py
+    time python only_calculation.py
 done
 
 echo ''
