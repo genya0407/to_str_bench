@@ -4,5 +4,5 @@ res1 = 1
 end
 
 (1..5).each do
-  puts res1.to_s[0..14]
+  res1.to_s
 end
